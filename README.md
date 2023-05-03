@@ -13,4 +13,33 @@ BLoC/Cubit for state management
 Clean and modern UI/UX
 
 # Getting Started
+
+Prerequisites
+
+Ensure you have the following software installed:
+
+Flutter SDK
+Dart SDK
+Android Studio or Visual Studio Code (with Flutter and Dart plugins)
+Firebase CLI
+
+# Setup
+
+1. Clone this repository to your local machine:
+git clone https://github.com/yourusername/easychat.git
+2. Navigate to the project directory: 
+   cd easychat
+3. Install the required packages:
+  flutter pub get
+4. Set up a new Firebase project and enable the following services:
+
+   Firestore
+   Firebase Storage
+   Google Authentication
+
+5. Download the google-services.json file from the Firebase console and place it in the android/app directory.
+
+6. Run the app on your preferred device or emulator:
+   flutter run
+
  
